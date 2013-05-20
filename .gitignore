@@ -26,6 +26,7 @@
 *.mp4
 *.mov
 !newVideo.mp4 #Include
+!/html/generatedVideos/assets/newVideo.mp4 #Include
 
 # Logs and databases #
 ######################
