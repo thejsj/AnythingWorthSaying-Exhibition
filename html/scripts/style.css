@@ -1,0 +1,339 @@
+/* @license
+ * MyFonts Webfont Build ID 2460949, 2013-01-26T16:43:12-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Code Pro Demo by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/code-pro/demo/
+ * Licensed pageviews: Unlimited
+ * 
+ * Webfont: Code Pro Light Demo by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/code-pro/light-demo/
+ * Licensed pageviews: 0
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2460949
+ * ../webfonts copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+ 
+@font-face {
+	font-family: 'Code-Pro-Demo';
+	src: url('../webfonts/258D15_0_0.eot');
+	src: url('../webfonts/258D15_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/258D15_0_0.woff') format('woff'),
+	url('../webfonts/258D15_0_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Code-Pro-Light-Demo';
+	src: url('../webfonts/258D15_1_0.eot');
+	src: url('../webfonts/258D15_1_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/258D15_1_0.woff') format('woff'),
+	url('../webfonts/258D15_1_0.ttf') format('truetype');
+}
+ 
+
+/*	Universals 
+=========================== */
+
+html {
+	color: rgb(231,80,51);
+/*	border: solid 10px #000;*/
+	margin: 0px !important; 
+	padding: 0px !important;
+	overflow: hidden;
+}
+
+html.index {
+	background-image: url("./imgs/InteractionBg2.jpg");
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-clip:content-box;
+	background-origin: content-box;
+	background-size: 100% auto; 
+}
+
+html.index_auto {
+	background-image: url("./imgs/InteractionBg.jpg");
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-clip:content-box;
+	background-origin: content-box;
+	background-size: 100% auto; 
+	cursor: none;
+}
+
+body {
+	margin: 0px !important; 
+	padding: 0px !important;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	padding: 5px 50px;
+	margin: 0px;
+	display: block;
+	clear: both;
+	font-family: 'Code-Pro-Demo', sans-serif;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 1em;
+	position:absolute;
+	top:0px;
+	z-index: 250;
+	letter-spacing: 0.1em;
+	color: #777;
+}
+
+/* Take Care of Kerning */
+
+h1 .char1 {
+	letter-spacing: 0.08em;
+}
+
+h1 .char3 {
+	letter-spacing: 0.09em;
+}
+
+h1 .char4 {
+	letter-spacing: 0.06em;
+}
+
+h1 .char7 {
+	letter-spacing: 0.04em;
+}
+
+h1 .char10 {
+	letter-spacing: -0.05em;
+}
+
+h1 .char11 {
+	letter-spacing: 0.02em;
+}
+
+h1 .char12 {
+	letter-spacing: 0.04em;
+}
+
+h1 .char13 {
+	letter-spacing: 0.06em;
+}
+
+h1 .char16 {
+	letter-spacing: 0.04em;
+}
+
+h1 .char17 {
+	letter-spacing: -0.05em;
+}
+
+h1 .char20 {
+	letter-spacing: 0.04em;
+}
+
+h1 a {
+	color: rgb(231,80,51);
+	text-decoration: none; 
+}
+
+h1:hover {
+	text-decoration: none;
+	/*border-bottom: 2px solid #000; */
+	cursor: pointer;
+	color: rgb(231,80,51);
+}
+
+#main_image {
+	max-width: 920px;
+	height: auto;
+}
+
+/*	Video Container 
+=========================== */
+
+#video-container {
+	height: 0px; 
+	width: 0px;
+	position: absolute;
+	display: block; 
+	z-index: 1000;
+	border: solid rgb(231,80,51);
+	border-width: 0px;
+	background-color: #fff; 
+}
+
+#close-box {
+	top: -100px;
+	left: -100px;
+	position: absolute;
+	background: rgb(231,80,51);
+	padding: 0px;
+	margin: 5px;
+	width: 0px;
+	height: 0px;
+	z-index: 1000;
+	color: #fff;
+	font-family: 'Code-Pro-Demo', sans-serif; 
+	text-align: center;
+	font-size: 24px;
+	opacity: 0.0;
+}
+
+#close-box:hover {
+	cursor: pointer;
+	background-color: #000;
+}
+
+#secondary-text {
+	position: absolute;
+	background: rgb(231,80,51);
+	margin: 5px;
+	z-index: 1000;
+	color: #fff;
+	line-height: 1.5em;
+	opacity: 0.0;
+}
+
+
+/*	About 
+=========================== */
+
+#about {
+	padding: 110px;
+}
+
+#about h3 {
+	font-family: 'Code-Pro-Demo', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0px;
+	letter-spacing: 0.15em;
+}
+
+#about p {
+	font-family: 'Georgia', serif;
+	line-height: 1.7em;
+	font-style: italic;
+	width: 510px;
+	margin: 0px auto;
+	text-align: justify;
+}
+
+#about a {
+	color: rgb(231,80,51);
+}
+
+#about a:hover {
+	color: #777;
+}
+
+/*	Container 
+=========================== */
+
+#container {
+	
+}
+
+ul {
+	list-style-type: none; 
+	position: absolute;
+}
+
+li.thumbnail  {
+	width: 0px;
+	margin: 10px 10px;	
+	height: 0px;
+	background-color: #000;
+	background-size: 100%;
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 500;
+	border-color: rgb(231,80,51);
+	border-style: solid;
+	border-width: 1px;
+	opacity: 0.9;
+	/* Border */
+	transition: border-width 1s;
+	-moz-transition: border-width 1s; /* Firefox 4 */
+	-webkit-transition: border-width 1s; /* Safari and Chrome */
+	-o-transition: border-width 1s; /* Opera */
+	/* margin */
+	transition: margin 1s;
+	-moz-transition: margin 1s; 
+	-webkit-transition: margin 1s; 
+	-o-transition: margin 1s;
+}
+
+li.thumbnail:hover{
+	opacity: 1.0;
+}
+
+li.thumbnail:focus {
+	border-width: 5px;
+	border-color: #777;
+}
+
+li.thumbnail.selected {
+	opacity: 1.0;
+	border-width: 5px;
+	/*margin: -5px 0px 0px -5px;*/
+	/* Border */
+	transition: border-width 1s;
+	-moz-transition: border-width 1s; /* Firefox 4 */
+	-webkit-transition: border-width 1s; /* Safari and Chrome */
+	-o-transition: border-width 1s; /* Opera */
+	/* margin */
+	transition: margin 1s;
+	-moz-transition: margin 1s; 
+	-webkit-transition: margin 1s; 
+	-o-transition: margin 1s; 
+}
+
+li.thumbnail img {
+	opacity: 0.0;
+	width: 120px;
+	height: 68px;
+	/* Opacity */
+	transition: opacity 1s;
+	-moz-transition: opacity 1s; /* Firefox 4 */
+	-webkit-transition: opacity 1s; /* Safari and Chrome */
+	-o-transition: opacity 1s; /* Opera */
+}
+
+li.thumbnail.selected img {
+	opacity: 1.0;
+	/* Opacity */
+	transition: opacity 1s;
+	-moz-transition: opacity 1s; /* Firefox 4 */
+	-webkit-transition: opacity 1s; /* Safari and Chrome */
+	-o-transition: opacity 1s; /* Opera */
+
+}
+
+.oops {
+	font-family: 'Code-Pro-Demo', sans-serif;
+	letter-spacing: 0.15em;
+	font-size: 100px;
+	width: 100%;
+	margin-top: 250px;
+	text-align: center;
+}
+
+.oops_small {
+	font-size:24px;
+}
+
